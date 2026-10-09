@@ -1,0 +1,3 @@
+Control codes GRP-POL-001, RSK-4488, and ISS-2026-0112 identify policy controls.
+Policy effective date 01/02/2026; version 12; limit 10; budget $17,000.
+Reference sequences 900123456 and 12345678901; invalid card-like value 4111111111111112.

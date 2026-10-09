@@ -1,0 +1,1607 @@
+{
+  "schema_version": 1,
+  "disclaimer": "Synthetic challenge results measure only these fixtures. Values are scored after Unicode/whitespace normalization; phone numbers are compared by digits. Manually review gold labels before citing results.",
+  "structure_metric_definition": "Locator retention: matched labeled page/row/sheet marker strings divided by labeled marker strings. This is a narrow proxy; it does not score full context or formatting retention and cannot validate the 80% structure-retention outcome.",
+  "files_by_type": {
+    "csv": {
+      "file_count": 2,
+      "quarantined_file_count": 1,
+      "structure": {
+        "labeled_units": 1,
+        "retained_units": 1,
+        "retention": 1.0
+      },
+      "by_class": {
+        "ADDRESS": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "BANK_ACCOUNT": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOB": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMAIL": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMPLOYEE_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "GOVERNMENT_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PERSON_NAME": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PHONE": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "docx": {
+      "file_count": 2,
+      "quarantined_file_count": 1,
+      "structure": {
+        "labeled_units": 3,
+        "retained_units": 3,
+        "retention": 1.0
+      },
+      "by_class": {
+        "ADDRESS": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "BANK_ACCOUNT": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOB": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMAIL": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 1,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "EMPLOYEE_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "GOVERNMENT_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PERSON_NAME": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PHONE": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 1,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        }
+      }
+    },
+    "pdf": {
+      "file_count": 2,
+      "quarantined_file_count": 2,
+      "structure": {
+        "labeled_units": 2,
+        "retained_units": 2,
+        "retention": 1.0
+      },
+      "by_class": {
+        "ADDRESS": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "BANK_ACCOUNT": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOB": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMAIL": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMPLOYEE_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "GOVERNMENT_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PERSON_NAME": {
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 0,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666
+        },
+        "PHONE": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "pptx": {
+      "file_count": 1,
+      "quarantined_file_count": 0,
+      "structure": {
+        "labeled_units": 3,
+        "retained_units": 3,
+        "retention": 1.0
+      },
+      "by_class": {
+        "ADDRESS": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "BANK_ACCOUNT": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOB": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMAIL": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMPLOYEE_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "GOVERNMENT_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PERSON_NAME": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PHONE": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "txt": {
+      "file_count": 2,
+      "quarantined_file_count": 0,
+      "structure": {
+        "labeled_units": 0,
+        "retained_units": 0,
+        "retention": null
+      },
+      "by_class": {
+        "ADDRESS": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "BANK_ACCOUNT": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOB": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMAIL": {
+          "true_positive": 2,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMPLOYEE_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "GOVERNMENT_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PAYMENT_CARD": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "PERSON_NAME": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PHONE": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "US_SSN": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      }
+    },
+    "xlsx": {
+      "file_count": 1,
+      "quarantined_file_count": 0,
+      "structure": {
+        "labeled_units": 3,
+        "retained_units": 3,
+        "retention": 1.0
+      },
+      "by_class": {
+        "ADDRESS": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "BANK_ACCOUNT": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOB": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMAIL": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMPLOYEE_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "GOVERNMENT_ID": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PERSON_NAME": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PHONE": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "overall_structure": {
+    "labeled_units": 12,
+    "retained_units": 12,
+    "retention": 1.0
+  },
+  "overall_pii_by_class": {
+    "ADDRESS": {
+      "true_positive": 6,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "BANK_ACCOUNT": {
+      "true_positive": 6,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "DOB": {
+      "true_positive": 6,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "EMAIL": {
+      "true_positive": 7,
+      "false_positive": 0,
+      "false_negative": 1,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333
+    },
+    "EMPLOYEE_ID": {
+      "true_positive": 6,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "GOVERNMENT_ID": {
+      "true_positive": 6,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "PAYMENT_CARD": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "PERSON_NAME": {
+      "true_positive": 6,
+      "false_positive": 1,
+      "false_negative": 0,
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1": 0.923076923076923
+    },
+    "PHONE": {
+      "true_positive": 6,
+      "false_positive": 0,
+      "false_negative": 1,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.923076923076923
+    },
+    "US_SSN": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "security_case_summary": {
+    "prompt_injection_inert": {
+      "passed": 1,
+      "failed": 0,
+      "not_scored": 0
+    },
+    "impersonation_claim_no_authority": {
+      "passed": 1,
+      "failed": 0,
+      "not_scored": 0
+    },
+    "table_labeled_contact_details": {
+      "passed": 5,
+      "failed": 0,
+      "not_scored": 0
+    },
+    "non_pii_false_positive_controls": {
+      "passed": 1,
+      "failed": 0,
+      "not_scored": 0
+    },
+    "embedded_media_quarantined": {
+      "passed": 1,
+      "failed": 0,
+      "not_scored": 0
+    },
+    "partial_ocr_page_quarantine": {
+      "passed": 1,
+      "failed": 0,
+      "not_scored": 0
+    },
+    "spoofed_extension_quarantined": {
+      "passed": 1,
+      "failed": 0,
+      "not_scored": 0
+    },
+    "malformed_row_quarantined": {
+      "passed": 1,
+      "failed": 0,
+      "not_scored": 0
+    }
+  },
+  "quarantine_summary": {
+    "expected_quarantines": 4,
+    "expected_quarantines_met": 4,
+    "unexpected_quarantines": 0,
+    "missed_quarantines": 0
+  },
+  "files": [
+    {
+      "file": "injection_impersonation.txt",
+      "file_type": "txt",
+      "extraction_complete": true,
+      "quarantined": false,
+      "quarantine_reasons": [],
+      "expected_quarantine": false,
+      "quarantine_expectation_met": true,
+      "extraction_failure_count": 0,
+      "security_cases": [
+        "prompt_injection_inert",
+        "impersonation_claim_no_authority"
+      ],
+      "security_case_results": [
+        {
+          "case": "prompt_injection_inert",
+          "passed": true,
+          "evidence": "Injection text remains ordinary document text; this code path has no model call."
+        },
+        {
+          "case": "impersonation_claim_no_authority",
+          "passed": true,
+          "evidence": "The prototype has no employee authentication or model-authorized action path."
+        }
+      ],
+      "structure": {
+        "labeled_units": 0,
+        "retained_units": 0,
+        "retention": null
+      },
+      "pii": {
+        "scoring_mode": "normalized_value",
+        "labeled_spans": 9,
+        "detected_spans": 9,
+        "by_class": {
+          "ADDRESS": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "BANK_ACCOUNT": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "DOB": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMAIL": {
+            "true_positive": 2,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMPLOYEE_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "GOVERNMENT_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PERSON_NAME": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PHONE": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "detected_counts": {
+        "EMAIL": 2,
+        "PERSON_NAME": 1,
+        "PHONE": 1,
+        "EMPLOYEE_ID": 1,
+        "GOVERNMENT_ID": 1,
+        "BANK_ACCOUNT": 1,
+        "ADDRESS": 1,
+        "DOB": 1
+      }
+    },
+    {
+      "file": "table_contacts.csv",
+      "file_type": "csv",
+      "extraction_complete": true,
+      "quarantined": false,
+      "quarantine_reasons": [],
+      "expected_quarantine": false,
+      "quarantine_expectation_met": true,
+      "extraction_failure_count": 0,
+      "security_cases": [
+        "table_labeled_contact_details"
+      ],
+      "security_case_results": [
+        {
+          "case": "table_labeled_contact_details",
+          "passed": true,
+          "evidence": "All labeled fixture values detected."
+        }
+      ],
+      "structure": {
+        "labeled_units": 1,
+        "retained_units": 1,
+        "retention": 1.0
+      },
+      "pii": {
+        "scoring_mode": "normalized_value",
+        "labeled_spans": 8,
+        "detected_spans": 8,
+        "by_class": {
+          "ADDRESS": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "BANK_ACCOUNT": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "DOB": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMAIL": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMPLOYEE_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "GOVERNMENT_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PERSON_NAME": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PHONE": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "detected_counts": {
+        "PERSON_NAME": 1,
+        "EMAIL": 1,
+        "PHONE": 1,
+        "EMPLOYEE_ID": 1,
+        "GOVERNMENT_ID": 1,
+        "BANK_ACCOUNT": 1,
+        "ADDRESS": 1,
+        "DOB": 1
+      }
+    },
+    {
+      "file": "table_contacts.docx",
+      "file_type": "docx",
+      "extraction_complete": true,
+      "quarantined": false,
+      "quarantine_reasons": [],
+      "expected_quarantine": false,
+      "quarantine_expectation_met": true,
+      "extraction_failure_count": 0,
+      "security_cases": [
+        "table_labeled_contact_details"
+      ],
+      "security_case_results": [
+        {
+          "case": "table_labeled_contact_details",
+          "passed": true,
+          "evidence": "All labeled fixture values detected."
+        }
+      ],
+      "structure": {
+        "labeled_units": 3,
+        "retained_units": 3,
+        "retention": 1.0
+      },
+      "pii": {
+        "scoring_mode": "normalized_value",
+        "labeled_spans": 8,
+        "detected_spans": 8,
+        "by_class": {
+          "ADDRESS": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "BANK_ACCOUNT": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "DOB": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMAIL": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMPLOYEE_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "GOVERNMENT_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PERSON_NAME": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PHONE": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "detected_counts": {
+        "PERSON_NAME": 1,
+        "EMAIL": 1,
+        "PHONE": 1,
+        "EMPLOYEE_ID": 1,
+        "GOVERNMENT_ID": 1,
+        "BANK_ACCOUNT": 1,
+        "ADDRESS": 1,
+        "DOB": 1
+      }
+    },
+    {
+      "file": "table_contacts.xlsx",
+      "file_type": "xlsx",
+      "extraction_complete": true,
+      "quarantined": false,
+      "quarantine_reasons": [],
+      "expected_quarantine": false,
+      "quarantine_expectation_met": true,
+      "extraction_failure_count": 0,
+      "security_cases": [
+        "table_labeled_contact_details"
+      ],
+      "security_case_results": [
+        {
+          "case": "table_labeled_contact_details",
+          "passed": true,
+          "evidence": "All labeled fixture values detected."
+        }
+      ],
+      "structure": {
+        "labeled_units": 3,
+        "retained_units": 3,
+        "retention": 1.0
+      },
+      "pii": {
+        "scoring_mode": "normalized_value",
+        "labeled_spans": 8,
+        "detected_spans": 8,
+        "by_class": {
+          "ADDRESS": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "BANK_ACCOUNT": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "DOB": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMAIL": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMPLOYEE_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "GOVERNMENT_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PERSON_NAME": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PHONE": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "detected_counts": {
+        "PERSON_NAME": 1,
+        "EMAIL": 1,
+        "PHONE": 1,
+        "EMPLOYEE_ID": 1,
+        "GOVERNMENT_ID": 1,
+        "BANK_ACCOUNT": 1,
+        "ADDRESS": 1,
+        "DOB": 1
+      }
+    },
+    {
+      "file": "table_contacts.pptx",
+      "file_type": "pptx",
+      "extraction_complete": true,
+      "quarantined": false,
+      "quarantine_reasons": [],
+      "expected_quarantine": false,
+      "quarantine_expectation_met": true,
+      "extraction_failure_count": 0,
+      "security_cases": [
+        "table_labeled_contact_details"
+      ],
+      "security_case_results": [
+        {
+          "case": "table_labeled_contact_details",
+          "passed": true,
+          "evidence": "All labeled fixture values detected."
+        }
+      ],
+      "structure": {
+        "labeled_units": 3,
+        "retained_units": 3,
+        "retention": 1.0
+      },
+      "pii": {
+        "scoring_mode": "normalized_value",
+        "labeled_spans": 8,
+        "detected_spans": 8,
+        "by_class": {
+          "ADDRESS": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "BANK_ACCOUNT": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "DOB": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMAIL": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMPLOYEE_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "GOVERNMENT_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PERSON_NAME": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PHONE": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "detected_counts": {
+        "PERSON_NAME": 1,
+        "EMAIL": 1,
+        "PHONE": 1,
+        "EMPLOYEE_ID": 1,
+        "GOVERNMENT_ID": 1,
+        "BANK_ACCOUNT": 1,
+        "ADDRESS": 1,
+        "DOB": 1
+      }
+    },
+    {
+      "file": "benign_policy_controls.txt",
+      "file_type": "txt",
+      "extraction_complete": true,
+      "quarantined": false,
+      "quarantine_reasons": [],
+      "expected_quarantine": false,
+      "quarantine_expectation_met": true,
+      "extraction_failure_count": 0,
+      "security_cases": [
+        "non_pii_false_positive_controls"
+      ],
+      "security_case_results": [
+        {
+          "case": "non_pii_false_positive_controls",
+          "passed": true,
+          "evidence": "No scoped PII patterns matched the benign control text."
+        }
+      ],
+      "structure": {
+        "labeled_units": 0,
+        "retained_units": 0,
+        "retention": null
+      },
+      "pii": {
+        "scoring_mode": "exact_span_offset",
+        "labeled_spans": 0,
+        "detected_spans": 0,
+        "by_class": {
+          "BANK_ACCOUNT": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "DOB": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "EMPLOYEE_ID": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "GOVERNMENT_ID": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "PAYMENT_CARD": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "PERSON_NAME": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "PHONE": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "US_SSN": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        }
+      },
+      "detected_counts": {}
+    },
+    {
+      "file": "embedded_image_contacts.docx",
+      "file_type": "docx",
+      "extraction_complete": false,
+      "quarantined": true,
+      "quarantine_reasons": [
+        "Embedded images or objects are not fully inspected; manual review required."
+      ],
+      "expected_quarantine": true,
+      "quarantine_expectation_met": true,
+      "extraction_failure_count": 1,
+      "security_cases": [
+        "embedded_media_quarantined"
+      ],
+      "security_case_results": [
+        {
+          "case": "embedded_media_quarantined",
+          "passed": true,
+          "evidence": "Embedded media triggered quarantine because its contents are not inspected."
+        }
+      ],
+      "structure": {
+        "labeled_units": 0,
+        "retained_units": 0,
+        "retention": null
+      },
+      "pii": {
+        "scoring_mode": "normalized_value",
+        "labeled_spans": 2,
+        "detected_spans": 0,
+        "by_class": {
+          "EMAIL": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          },
+          "PHONE": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          }
+        }
+      },
+      "detected_counts": {}
+    },
+    {
+      "file": "partial_ocr_scan.pdf",
+      "file_type": "pdf",
+      "extraction_complete": false,
+      "quarantined": true,
+      "quarantine_reasons": [
+        "Page 2: OCR confidence 0% is below the 65% release threshold.",
+        "Page 2: less than 20 characters extracted; page requires manual review."
+      ],
+      "expected_quarantine": true,
+      "quarantine_expectation_met": true,
+      "extraction_failure_count": 2,
+      "security_cases": [
+        "partial_ocr_page_quarantine",
+        "table_labeled_contact_details"
+      ],
+      "security_case_results": [
+        {
+          "case": "partial_ocr_page_quarantine",
+          "passed": true,
+          "evidence": "File was quarantined for review."
+        },
+        {
+          "case": "table_labeled_contact_details",
+          "passed": true,
+          "evidence": "All labeled fixture values detected."
+        }
+      ],
+      "structure": {
+        "labeled_units": 2,
+        "retained_units": 2,
+        "retention": 1.0
+      },
+      "pii": {
+        "scoring_mode": "normalized_value",
+        "labeled_spans": 8,
+        "detected_spans": 9,
+        "by_class": {
+          "ADDRESS": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "BANK_ACCOUNT": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "DOB": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMAIL": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "EMPLOYEE_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "GOVERNMENT_ID": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PERSON_NAME": {
+            "true_positive": 1,
+            "false_positive": 1,
+            "false_negative": 0,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          "PHONE": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "detected_counts": {
+        "PERSON_NAME": 2,
+        "EMAIL": 1,
+        "PHONE": 1,
+        "EMPLOYEE_ID": 1,
+        "GOVERNMENT_ID": 1,
+        "BANK_ACCOUNT": 1,
+        "ADDRESS": 1,
+        "DOB": 1
+      }
+    },
+    {
+      "file": "spoofed_pdf.pdf",
+      "file_type": "pdf",
+      "extraction_complete": false,
+      "quarantined": true,
+      "quarantine_reasons": [
+        "File signature does not match PDF extension; quarantined."
+      ],
+      "expected_quarantine": true,
+      "quarantine_expectation_met": true,
+      "extraction_failure_count": 1,
+      "security_cases": [
+        "spoofed_extension_quarantined"
+      ],
+      "security_case_results": [
+        {
+          "case": "spoofed_extension_quarantined",
+          "passed": true,
+          "evidence": "File was quarantined for review."
+        }
+      ],
+      "structure": {
+        "labeled_units": 0,
+        "retained_units": 0,
+        "retention": null
+      },
+      "pii": {
+        "scoring_mode": "exact_span_offset",
+        "labeled_spans": 0,
+        "detected_spans": 0,
+        "by_class": {
+          "ADDRESS": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "BANK_ACCOUNT": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "DOB": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "EMAIL": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "EMPLOYEE_ID": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "GOVERNMENT_ID": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "PERSON_NAME": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "PHONE": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        }
+      },
+      "detected_counts": {}
+    },
+    {
+      "file": "malformed_rows.csv",
+      "file_type": "csv",
+      "extraction_complete": false,
+      "quarantined": true,
+      "quarantine_reasons": [
+        "Extraction failed (ValueError); input quarantined."
+      ],
+      "expected_quarantine": true,
+      "quarantine_expectation_met": true,
+      "extraction_failure_count": 1,
+      "security_cases": [
+        "malformed_row_quarantined"
+      ],
+      "security_case_results": [
+        {
+          "case": "malformed_row_quarantined",
+          "passed": true,
+          "evidence": "File was quarantined for review."
+        }
+      ],
+      "structure": {
+        "labeled_units": 0,
+        "retained_units": 0,
+        "retention": null
+      },
+      "pii": {
+        "scoring_mode": "exact_span_offset",
+        "labeled_spans": 0,
+        "detected_spans": 0,
+        "by_class": {
+          "ADDRESS": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "BANK_ACCOUNT": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "DOB": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "EMAIL": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "EMPLOYEE_ID": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "GOVERNMENT_ID": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "PERSON_NAME": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "PHONE": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        }
+      },
+      "detected_counts": {}
+    }
+  ]
+}

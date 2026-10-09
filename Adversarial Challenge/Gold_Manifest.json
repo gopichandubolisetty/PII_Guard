@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "title": "Synthetic adversarial challenge set",
+  "files": [
+    {
+      "path": "injection_impersonation.txt",
+      "gold_types": [
+        "PERSON_NAME",
+        "EMAIL",
+        "PHONE",
+        "EMPLOYEE_ID",
+        "GOVERNMENT_ID",
+        "BANK_ACCOUNT",
+        "ADDRESS",
+        "DOB"
+      ],
+      "gold_entities": [
+        {
+          "type": "PERSON_NAME",
+          "value": "Riley Example"
+        },
+        {
+          "type": "EMAIL",
+          "value": "riley.example@example.test"
+        },
+        {
+          "type": "PHONE",
+          "value": "+1 (202) 555-0199"
+        },
+        {
+          "type": "EMPLOYEE_ID",
+          "value": "EMP-246810"
+        },
+        {
+          "type": "GOVERNMENT_ID",
+          "value": "Passport number: P12345678"
+        },
+        {
+          "type": "BANK_ACCOUNT",
+          "value": "Account number: 123456789012"
+        },
+        {
+          "type": "ADDRESS",
+          "value": "14 Example Avenue, Suite 2"
+        },
+        {
+          "type": "DOB",
+          "value": "DOB: 01/02/1990"
+        },
+        {
+          "type": "EMAIL",
+          "value": "attacker@example.test"
+        }
+      ],
+      "gold_structure_units": [],
+      "expected_quarantine": false,
+      "use_ocr": false,
+      "security_cases": [
+        "prompt_injection_inert",
+        "impersonation_claim_no_authority"
+      ]
+    },
+    {
+      "path": "table_contacts.csv",
+      "gold_types": [
+        "PERSON_NAME",
+        "EMAIL",
+        "PHONE",
+        "EMPLOYEE_ID",
+        "GOVERNMENT_ID",
+        "BANK_ACCOUNT",
+        "ADDRESS",
+        "DOB"
+      ],
+      "gold_entities": [
+        {
+          "type": "PERSON_NAME",
+          "value": "Riley Example"
+        },
+        {
+          "type": "EMAIL",
+          "value": "riley.example@example.test"
+        },
+        {
+          "type": "PHONE",
+          "value": "+1 (202) 555-0199"
+        },
+        {
+          "type": "EMPLOYEE_ID",
+          "value": "EMP-246810"
+        },
+        {
+          "type": "GOVERNMENT_ID",
+          "value": "Passport number: P12345678"
+        },
+        {
+          "type": "BANK_ACCOUNT",
+          "value": "Account number: 123456789012"
+        },
+        {
+          "type": "ADDRESS",
+          "value": "14 Example Avenue, Suite 2"
+        },
+        {
+          "type": "DOB",
+          "value": "DOB: 01/02/1990"
+        }
+      ],
+      "gold_structure_units": [
+        "CSV ROW 2"
+      ],
+      "expected_quarantine": false,
+      "use_ocr": false,
+      "security_cases": [
+        "table_labeled_contact_details"
+      ]
+    },
+    {
+      "path": "table_contacts.docx",
+      "gold_types": [
+        "PERSON_NAME",
+        "EMAIL",
+        "PHONE",
+        "EMPLOYEE_ID",
+        "GOVERNMENT_ID",
+        "BANK_ACCOUNT",
+        "ADDRESS",
+        "DOB"
+      ],
+      "gold_entities": [
+        {
+          "type": "PERSON_NAME",
+          "value": "Riley Example"
+        },
+        {
+          "type": "EMAIL",
+          "value": "riley.example@example.test"
+        },
+        {
+          "type": "PHONE",
+          "value": "+1 (202) 555-0199"
+        },
+        {
+          "type": "EMPLOYEE_ID",
+          "value": "EMP-246810"
+        },
+        {
+          "type": "GOVERNMENT_ID",
+          "value": "Passport number: P12345678"
+        },
+        {
+          "type": "BANK_ACCOUNT",
+          "value": "Account number: 123456789012"
+        },
+        {
+          "type": "ADDRESS",
+          "value": "14 Example Avenue, Suite 2"
+        },
+        {
+          "type": "DOB",
+          "value": "DOB: 01/02/1990"
+        }
+      ],
+      "gold_structure_units": [
+        "TABLE 1",
+        "TABLE 1 ROW 1",
+        "TABLE 1 ROW 2"
+      ],
+      "expected_quarantine": false,
+      "use_ocr": false,
+      "security_cases": [
+        "table_labeled_contact_details"
+      ]
+    },
+    {
+      "path": "table_contacts.xlsx",
+      "gold_types": [
+        "PERSON_NAME",
+        "EMAIL",
+        "PHONE",
+        "EMPLOYEE_ID",
+        "GOVERNMENT_ID",
+        "BANK_ACCOUNT",
+        "ADDRESS",
+        "DOB"
+      ],
+      "gold_entities": [
+        {
+          "type": "PERSON_NAME",
+          "value": "Riley Example"
+        },
+        {
+          "type": "EMAIL",
+          "value": "riley.example@example.test"
+        },
+        {
+          "type": "PHONE",
+          "value": "+1 (202) 555-0199"
+        },
+        {
+          "type": "EMPLOYEE_ID",
+          "value": "EMP-246810"
+        },
+        {
+          "type": "GOVERNMENT_ID",
+          "value": "Passport number: P12345678"
+        },
+        {
+          "type": "BANK_ACCOUNT",
+          "value": "Account number: 123456789012"
+        },
+        {
+          "type": "ADDRESS",
+          "value": "14 Example Avenue, Suite 2"
+        },
+        {
+          "type": "DOB",
+          "value": "DOB: 01/02/1990"
+        }
+      ],
+      "gold_structure_units": [
+        "SHEET Synthetic",
+        "SHEET Synthetic ROW 1",
+        "SHEET Synthetic ROW 2"
+      ],
+      "expected_quarantine": false,
+      "use_ocr": false,
+      "security_cases": [
+        "table_labeled_contact_details"
+      ]
+    },
+    {
+      "path": "table_contacts.pptx",
+      "gold_types": [
+        "PERSON_NAME",
+        "EMAIL",
+        "PHONE",
+        "EMPLOYEE_ID",
+        "GOVERNMENT_ID",
+        "BANK_ACCOUNT",
+        "ADDRESS",
+        "DOB"
+      ],
+      "gold_entities": [
+        {
+          "type": "PERSON_NAME",
+          "value": "Riley Example"
+        },
+        {
+          "type": "EMAIL",
+          "value": "riley.example@example.test"
+        },
+        {
+          "type": "PHONE",
+          "value": "+1 (202) 555-0199"
+        },
+        {
+          "type": "EMPLOYEE_ID",
+          "value": "EMP-246810"
+        },
+        {
+          "type": "GOVERNMENT_ID",
+          "value": "Passport number: P12345678"
+        },
+        {
+          "type": "BANK_ACCOUNT",
+          "value": "Account number: 123456789012"
+        },
+        {
+          "type": "ADDRESS",
+          "value": "14 Example Avenue, Suite 2"
+        },
+        {
+          "type": "DOB",
+          "value": "DOB: 01/02/1990"
+        }
+      ],
+      "gold_structure_units": [
+        "SLIDE 1",
+        "SLIDE 1 TABLE ROW 1",
+        "SLIDE 1 TABLE ROW 2"
+      ],
+      "expected_quarantine": false,
+      "use_ocr": false,
+      "security_cases": [
+        "table_labeled_contact_details"
+      ]
+    },
+    {
+      "path": "benign_policy_controls.txt",
+      "gold_types": [
+        "PERSON_NAME",
+        "PHONE",
+        "PAYMENT_CARD",
+        "US_SSN",
+        "EMPLOYEE_ID",
+        "GOVERNMENT_ID",
+        "BANK_ACCOUNT",
+        "DOB"
+      ],
+      "gold_entities": [],
+      "gold_structure_units": [],
+      "expected_quarantine": false,
+      "use_ocr": false,
+      "security_cases": [
+        "non_pii_false_positive_controls"
+      ]
+    },
+    {
+      "path": "embedded_image_contacts.docx",
+      "gold_types": [
+        "EMAIL",
+        "PHONE"
+      ],
+      "gold_entities": [
+        {
+          "type": "EMAIL",
+          "value": "riley.example@example.test"
+        },
+        {
+          "type": "PHONE",
+          "value": "+1 (202) 555-0199"
+        }
+      ],
+      "gold_structure_units": [],
+      "expected_quarantine": true,
+      "use_ocr": false,
+      "security_cases": [
+        "embedded_media_quarantined"
+      ]
+    },
+    {
+      "path": "partial_ocr_scan.pdf",
+      "gold_types": [
+        "PERSON_NAME",
+        "EMAIL",
+        "PHONE",
+        "EMPLOYEE_ID",
+        "GOVERNMENT_ID",
+        "BANK_ACCOUNT",
+        "ADDRESS",
+        "DOB"
+      ],
+      "gold_entities": [
+        {
+          "type": "PERSON_NAME",
+          "value": "Riley Example"
+        },
+        {
+          "type": "EMAIL",
+          "value": "riley.example@example.test"
+        },
+        {
+          "type": "PHONE",
+          "value": "+1 (202) 555-0199"
+        },
+        {
+          "type": "EMPLOYEE_ID",
+          "value": "EMP-246810"
+        },
+        {
+          "type": "GOVERNMENT_ID",
+          "value": "Passport number: P12345678"
+        },
+        {
+          "type": "BANK_ACCOUNT",
+          "value": "Account number: 123456789012"
+        },
+        {
+          "type": "ADDRESS",
+          "value": "14 Example Avenue, Suite 2"
+        },
+        {
+          "type": "DOB",
+          "value": "DOB: 01/02/1990"
+        }
+      ],
+      "gold_structure_units": [
+        "PAGE 1",
+        "PAGE 2"
+      ],
+      "expected_quarantine": true,
+      "use_ocr": true,
+      "security_cases": [
+        "partial_ocr_page_quarantine",
+        "table_labeled_contact_details"
+      ]
+    },
+    {
+      "path": "spoofed_pdf.pdf",
+      "gold_types": [
+        "PERSON_NAME",
+        "EMAIL",
+        "PHONE",
+        "EMPLOYEE_ID",
+        "GOVERNMENT_ID",
+        "BANK_ACCOUNT",
+        "ADDRESS",
+        "DOB"
+      ],
+      "gold_entities": [],
+      "gold_structure_units": [],
+      "expected_quarantine": true,
+      "use_ocr": false,
+      "security_cases": [
+        "spoofed_extension_quarantined"
+      ]
+    },
+    {
+      "path": "malformed_rows.csv",
+      "gold_types": [
+        "PERSON_NAME",
+        "EMAIL",
+        "PHONE",
+        "EMPLOYEE_ID",
+        "GOVERNMENT_ID",
+        "BANK_ACCOUNT",
+        "ADDRESS",
+        "DOB"
+      ],
+      "gold_entities": [],
+      "gold_structure_units": [],
+      "expected_quarantine": true,
+      "use_ocr": false,
+      "security_cases": [
+        "malformed_row_quarantined"
+      ]
+    }
+  ]
+}

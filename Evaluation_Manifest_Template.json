@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "Cadence_Group_Risk_Management_Policy__v6.0.pdf",
+      "use_ocr": true,
+      "gold_structure_units": [],
+      "gold_entities": []
+    },
+    {
+      "path": "Cadence_Financial_Group_Organizational_Pack.pptx",
+      "use_ocr": false,
+      "gold_structure_units": [],
+      "gold_entities": []
+    },
+    {
+      "path": "Cadence_TPRM_Training.docx",
+      "use_ocr": false,
+      "gold_structure_units": [],
+      "gold_entities": []
+    }
+  ]
+}
