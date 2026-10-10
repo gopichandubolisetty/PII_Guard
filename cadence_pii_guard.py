@@ -143,6 +143,12 @@ def find_command(name: str) -> str | None:
             Path(r"C:\Program Files\poppler\Library\bin\pdftoppm.exe"),
             Path(r"C:\Program Files\Poppler\bin\pdftoppm.exe"),
         ])
+        try:
+            candidates.extend(Path(r"C:\Program Files").glob("Release-*/poppler-*/Library/bin/pdftoppm.exe"))
+            candidates.extend(Path(r"C:\Program Files").glob("poppler-*/Library/bin/pdftoppm.exe"))
+            candidates.extend(Path(r"C:\Program Files").glob("poppler-*/bin/pdftoppm.exe"))
+        except Exception:
+            pass
     elif name == "tesseract":
         candidates.extend([
             Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe"),

@@ -163,68 +163,68 @@
       },
       "by_class": {
         "ADDRESS": {
-          "true_positive": 1,
+          "true_positive": 0,
           "false_positive": 0,
-          "false_negative": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "false_negative": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null
         },
         "BANK_ACCOUNT": {
-          "true_positive": 1,
+          "true_positive": 0,
           "false_positive": 0,
-          "false_negative": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "false_negative": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null
         },
         "DOB": {
-          "true_positive": 1,
+          "true_positive": 0,
           "false_positive": 0,
-          "false_negative": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "false_negative": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null
         },
         "EMAIL": {
-          "true_positive": 1,
+          "true_positive": 0,
           "false_positive": 0,
-          "false_negative": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "false_negative": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null
         },
         "EMPLOYEE_ID": {
-          "true_positive": 1,
+          "true_positive": 0,
           "false_positive": 0,
-          "false_negative": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "false_negative": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null
         },
         "GOVERNMENT_ID": {
-          "true_positive": 1,
+          "true_positive": 0,
           "false_positive": 0,
-          "false_negative": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "false_negative": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null
         },
         "PERSON_NAME": {
-          "true_positive": 1,
-          "false_positive": 1,
-          "false_negative": 0,
-          "precision": 0.5,
-          "recall": 1.0,
-          "f1": 0.6666666666666666
+          "true_positive": 0,
+          "false_positive": 0,
+          "false_negative": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null
         },
         "PHONE": {
-          "true_positive": 1,
+          "true_positive": 0,
           "false_positive": 0,
-          "false_negative": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "false_negative": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null
         }
       }
     },
@@ -477,52 +477,52 @@
   },
   "overall_pii_by_class": {
     "ADDRESS": {
-      "true_positive": 6,
-      "false_positive": 0,
-      "false_negative": 0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
-    },
-    "BANK_ACCOUNT": {
-      "true_positive": 6,
-      "false_positive": 0,
-      "false_negative": 0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
-    },
-    "DOB": {
-      "true_positive": 6,
-      "false_positive": 0,
-      "false_negative": 0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
-    },
-    "EMAIL": {
-      "true_positive": 7,
+      "true_positive": 5,
       "false_positive": 0,
       "false_negative": 1,
       "precision": 1.0,
-      "recall": 0.875,
-      "f1": 0.9333333333333333
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091
+    },
+    "BANK_ACCOUNT": {
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 1,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091
+    },
+    "DOB": {
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 1,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091
+    },
+    "EMAIL": {
+      "true_positive": 6,
+      "false_positive": 0,
+      "false_negative": 2,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
     },
     "EMPLOYEE_ID": {
-      "true_positive": 6,
+      "true_positive": 5,
       "false_positive": 0,
-      "false_negative": 0,
+      "false_negative": 1,
       "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091
     },
     "GOVERNMENT_ID": {
-      "true_positive": 6,
+      "true_positive": 5,
       "false_positive": 0,
-      "false_negative": 0,
+      "false_negative": 1,
       "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091
     },
     "PAYMENT_CARD": {
       "true_positive": 0,
@@ -533,20 +533,20 @@
       "f1": null
     },
     "PERSON_NAME": {
-      "true_positive": 6,
-      "false_positive": 1,
-      "false_negative": 0,
-      "precision": 0.8571428571428571,
-      "recall": 1.0,
-      "f1": 0.923076923076923
-    },
-    "PHONE": {
-      "true_positive": 6,
+      "true_positive": 5,
       "false_positive": 0,
       "false_negative": 1,
       "precision": 1.0,
-      "recall": 0.8571428571428571,
-      "f1": 0.923076923076923
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091
+    },
+    "PHONE": {
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 2,
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1": 0.8333333333333333
     },
     "US_SSN": {
       "true_positive": 0,
@@ -569,8 +569,8 @@
       "not_scored": 0
     },
     "table_labeled_contact_details": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 4,
+      "failed": 1,
       "not_scored": 0
     },
     "non_pii_false_positive_controls": {
@@ -1296,12 +1296,14 @@
       "extraction_complete": false,
       "quarantined": true,
       "quarantine_reasons": [
-        "Page 2: OCR confidence 0% is below the 65% release threshold.",
+        "Page 1: OCR could not run (RuntimeError); manual review required.",
+        "Page 1: less than 20 characters extracted; page requires manual review.",
+        "Page 2: OCR could not run (RuntimeError); manual review required.",
         "Page 2: less than 20 characters extracted; page requires manual review."
       ],
       "expected_quarantine": true,
       "quarantine_expectation_met": true,
-      "extraction_failure_count": 2,
+      "extraction_failure_count": 4,
       "security_cases": [
         "partial_ocr_page_quarantine",
         "table_labeled_contact_details"
@@ -1314,8 +1316,8 @@
         },
         {
           "case": "table_labeled_contact_details",
-          "passed": true,
-          "evidence": "All labeled fixture values detected."
+          "passed": false,
+          "evidence": "At least one labeled fixture value was missed."
         }
       ],
       "structure": {
@@ -1326,84 +1328,75 @@
       "pii": {
         "scoring_mode": "normalized_value",
         "labeled_spans": 8,
-        "detected_spans": 9,
+        "detected_spans": 0,
         "by_class": {
           "ADDRESS": {
-            "true_positive": 1,
+            "true_positive": 0,
             "false_positive": 0,
-            "false_negative": 0,
-            "precision": 1.0,
-            "recall": 1.0,
-            "f1": 1.0
+            "false_negative": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
           },
           "BANK_ACCOUNT": {
-            "true_positive": 1,
+            "true_positive": 0,
             "false_positive": 0,
-            "false_negative": 0,
-            "precision": 1.0,
-            "recall": 1.0,
-            "f1": 1.0
+            "false_negative": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
           },
           "DOB": {
-            "true_positive": 1,
+            "true_positive": 0,
             "false_positive": 0,
-            "false_negative": 0,
-            "precision": 1.0,
-            "recall": 1.0,
-            "f1": 1.0
+            "false_negative": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
           },
           "EMAIL": {
-            "true_positive": 1,
+            "true_positive": 0,
             "false_positive": 0,
-            "false_negative": 0,
-            "precision": 1.0,
-            "recall": 1.0,
-            "f1": 1.0
+            "false_negative": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
           },
           "EMPLOYEE_ID": {
-            "true_positive": 1,
+            "true_positive": 0,
             "false_positive": 0,
-            "false_negative": 0,
-            "precision": 1.0,
-            "recall": 1.0,
-            "f1": 1.0
+            "false_negative": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
           },
           "GOVERNMENT_ID": {
-            "true_positive": 1,
+            "true_positive": 0,
             "false_positive": 0,
-            "false_negative": 0,
-            "precision": 1.0,
-            "recall": 1.0,
-            "f1": 1.0
+            "false_negative": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
           },
           "PERSON_NAME": {
-            "true_positive": 1,
-            "false_positive": 1,
-            "false_negative": 0,
-            "precision": 0.5,
-            "recall": 1.0,
-            "f1": 0.6666666666666666
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
           },
           "PHONE": {
-            "true_positive": 1,
+            "true_positive": 0,
             "false_positive": 0,
-            "false_negative": 0,
-            "precision": 1.0,
-            "recall": 1.0,
-            "f1": 1.0
+            "false_negative": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
           }
         }
       },
-      "detected_counts": {
-        "PERSON_NAME": 2,
-        "EMAIL": 1,
-        "PHONE": 1,
-        "EMPLOYEE_ID": 1,
-        "GOVERNMENT_ID": 1,
-        "BANK_ACCOUNT": 1,
-        "ADDRESS": 1,
-        "DOB": 1
-      }
+      "detected_counts": {}
     },
     {
       "file": "spoofed_pdf.pdf",
